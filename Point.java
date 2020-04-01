@@ -53,3 +53,9 @@ class Point {
 
 
 }
+class Canvas{
+	List<Point> tochki=new List<Point>();
+	public void dodaj(Point tochka){
+		tochki.add(tochka);
+	}
+}
